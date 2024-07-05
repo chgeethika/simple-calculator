@@ -2,6 +2,7 @@
 # program:
 
 ## style.css
+```
 .calculator {
     height:300px;
     width: 200px;
@@ -37,9 +38,9 @@
   button:hover {
     background-color: #ccc;
   }  
-  
+```  
 ## index.js
-
+```
 let expression = '';
 
 function appendNumber(num) {
@@ -71,9 +72,9 @@ function calculate() {
 function updateDisplay() {
   document.getElementById('display').value = expression;
 }
-
+```
 ## calc.html
-
+```
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -115,7 +116,7 @@ function updateDisplay() {
   <script src="index.js"></script>
 </body>
 </html>
-
+```
 # Output:
 ![Screenshot (446)](https://github.com/chgeethika/simple-calculator/assets/142209368/1793c9ba-6a45-4200-862e-ffe99f907859)
 
